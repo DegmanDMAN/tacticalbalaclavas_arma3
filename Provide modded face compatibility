@@ -17,7 +17,7 @@ CfgFaces {
   			};\
   		}
   		
-  		TacBalaFace(PersianHead_A3_01); // returns Deg_TB_PersianHead_A3_01
+  	  TacBalaFace(PersianHead_A3_01); // returns Deg_TB_PersianHead_A3_01
       TacBalaFace(yourFaceClassname01); // returns Deg_TB_yourFaceClassname01
       TacBalaFace(yourFaceClassname02);
 
