@@ -6,19 +6,19 @@ CfgFaces {
 
 #if __has_include("\z\ace\addons\main\script_component.hpp") // Checks if Tactical Balaclavas mod is loaded
 
-  #define TacBalaFace(CLASSNAME)\ //returns Deg_TB_yourFaceClassname
-  		class Deg_TB_##CLASSNAME##: ##CLASSNAME##\ //Deg_TB_ prefix ensures this face will be registered to face switch function
-  		{\
-  			displayName=[TB] ##CLASSNAME##;\ //not really important since it won't be visible, but still...
-  			author="Author's name";\
-  			disabled=1;\ //this face should NOT be selectable in profile, arsenal or 3den
-  			head="Deg_Head_TB_Face";\ //this can be your own .p3d model - should be only the area around eyes and lower neck, with the rest of face non-existent. Example is provided in main repository.
-  			identityTypes[]=\
-  			{\
-  			};\
-  		}
+#define TacBalaFace(CLASSNAME)\ //returns Deg_TB_yourFaceClassname
+    class Deg_TB_##CLASSNAME##: ##CLASSNAME##\ //Deg_TB_ prefix ensures this face will be registered to face switch function
+    {\
+      displayName=[TB] ##CLASSNAME##;\ //not really important since it won't be visible, but still...
+      author="Author's name";\
+      disabled=1;\ //this face should NOT be selectable in profile, arsenal or 3den
+      head="Deg_Head_TB_Face";\ //this can be your own .p3d model - should be only the area around eyes and lower neck, with the rest of face non-existent. Example is provided in main repository.
+      identityTypes[]=\
+      {\
+      };\
+    }
   		
-  	  TacBalaFace(PersianHead_A3_01); // returns Deg_TB_PersianHead_A3_01
+  	TacBalaFace(PersianHead_A3_01); // returns Deg_TB_PersianHead_A3_01
       TacBalaFace(yourFaceClassname01); // returns Deg_TB_yourFaceClassname01
       TacBalaFace(yourFaceClassname02);
 
