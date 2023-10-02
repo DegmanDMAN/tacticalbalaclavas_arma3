@@ -1,3 +1,4 @@
+```c
 // This will provide your modded face compatibility to be used with the mod's balaclava mechanism
 // This does NOT replace your modded face. It adds an alternative version of it only used while balaclavas are worn.
 
@@ -23,3 +24,4 @@ CfgFaces {
 
 #endif
 };
+```
