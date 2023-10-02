@@ -1,5 +1,8 @@
 ```c
-// This will provide your modded face compatibility with the mod's balaclava mechanism
+// CfgFaces: This will provide your modded face compatibility with the mod's balaclava mechanism. Deg_TB_  prefix is the key to this achievement.
+// CfgHeads: You can use your own head model with your faces
+// CfgGlasses: your custom goggles (balaclava or whatever it is in goggles slot) will be registered as trigger for face swap as long as it has Deg_TB_  prefix in it's classname
+
 // This does NOT replace your modded face. It adds an alternative version of it only used while balaclavas are worn.
 
 CfgFaces {
