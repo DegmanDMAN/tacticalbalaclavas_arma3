@@ -4,7 +4,7 @@
 
 CfgFaces {
 
-#if __has_include("\z\ace\addons\main\script_component.hpp") // Checks if Tactical Balaclavas mod is loaded
+#if __has_include("\deg_balaclava\config.hpp") // Checks if Tactical Balaclavas mod is loaded
 
 #define TacBalaFace(CLASSNAME)\ //returns Deg_TB_yourFaceClassname
     class Deg_TB_##CLASSNAME##: ##CLASSNAME##\ //Deg_TB_ prefix ensures this face will be registered to face switch function
